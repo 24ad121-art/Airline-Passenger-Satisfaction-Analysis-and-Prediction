@@ -1,0 +1,38 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.871,
+    "precision": 0.8676,
+    "recall": 0.8333,
+    "f1_score": 0.8501,
+    "roc_auc": 0.9253,
+    "avg_precision": 0.9304,
+    "classification_report": "                      precision    recall  f1-score   support\n\nneutral/dissatisfied       0.87      0.90      0.89     14573\n           satisfied       0.87      0.83      0.85     11403\n\n            accuracy                           0.87     25976\n           macro avg       0.87      0.87      0.87     25976\n        weighted avg       0.87      0.87      0.87     25976\n"
+  },
+  "Random Forest": {
+    "accuracy": 0.9617,
+    "precision": 0.9701,
+    "recall": 0.9417,
+    "f1_score": 0.9557,
+    "roc_auc": 0.9938,
+    "avg_precision": 0.993,
+    "classification_report": "                      precision    recall  f1-score   support\n\nneutral/dissatisfied       0.96      0.98      0.97     14573\n           satisfied       0.97      0.94      0.96     11403\n\n            accuracy                           0.96     25976\n           macro avg       0.96      0.96      0.96     25976\n        weighted avg       0.96      0.96      0.96     25976\n"
+  },
+  "HGB": {
+    "accuracy": 0.9647,
+    "precision": 0.9742,
+    "recall": 0.9445,
+    "f1_score": 0.9591,
+    "roc_auc": 0.9953,
+    "avg_precision": 0.9945,
+    "classification_report": "                      precision    recall  f1-score   support\n\nneutral/dissatisfied       0.96      0.98      0.97     14573\n           satisfied       0.97      0.94      0.96     11403\n\n            accuracy                           0.96     25976\n           macro avg       0.97      0.96      0.96     25976\n        weighted avg       0.96      0.96      0.96     25976\n"
+  },
+  "MLP": {
+    "accuracy": 0.965,
+    "precision": 0.9731,
+    "recall": 0.9465,
+    "f1_score": 0.9596,
+    "roc_auc": 0.9953,
+    "avg_precision": 0.9946,
+    "classification_report": "                      precision    recall  f1-score   support\n\nneutral/dissatisfied       0.96      0.98      0.97     14573\n           satisfied       0.97      0.95      0.96     11403\n\n            accuracy                           0.97     25976\n           macro avg       0.97      0.96      0.96     25976\n        weighted avg       0.97      0.97      0.96     25976\n"
+  }
+}

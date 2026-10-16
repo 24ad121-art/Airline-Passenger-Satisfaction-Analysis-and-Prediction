@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Test and coverage artifacts
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model artifacts (large binaries >100MB — regenerate with src/train.py)
+models/*
+!models/.gitkeep
+!models/mlp_history.json
+
+# Dataset raw files (obtain from Kaggle — see data/README.md)
+dataset/*
+!dataset/.gitkeep
+
+# Streamlit cache
+.streamlit/
+
+# IDE / OS artifacts
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Secrets — NEVER commit
+*.env
+secrets.yaml

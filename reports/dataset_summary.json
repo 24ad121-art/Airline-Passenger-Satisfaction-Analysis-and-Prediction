@@ -1,0 +1,541 @@
+{
+  "train": {
+    "name": "train",
+    "rows": 103904,
+    "columns": 25,
+    "missing_values": {
+      "Unnamed: 0": 0,
+      "id": 0,
+      "Gender": 0,
+      "Customer Type": 0,
+      "Age": 0,
+      "Type of Travel": 0,
+      "Class": 0,
+      "Flight Distance": 0,
+      "Inflight wifi service": 0,
+      "Departure/Arrival time convenient": 0,
+      "Ease of Online booking": 0,
+      "Gate location": 0,
+      "Food and drink": 0,
+      "Online boarding": 0,
+      "Seat comfort": 0,
+      "Inflight entertainment": 0,
+      "On-board service": 0,
+      "Leg room service": 0,
+      "Baggage handling": 0,
+      "Checkin service": 0,
+      "Inflight service": 0,
+      "Cleanliness": 0,
+      "Departure Delay in Minutes": 0,
+      "Arrival Delay in Minutes": 310,
+      "satisfaction": 0
+    },
+    "duplicate_rows": 0,
+    "target_distribution": {
+      "neutral or dissatisfied": {
+        "count": 58879,
+        "pct": 56.67
+      },
+      "satisfied": {
+        "count": 45025,
+        "pct": 43.33
+      }
+    },
+    "numerical_stats": {
+      "Age": {
+        "count": 103904.0,
+        "mean": 39.3797,
+        "std": 15.115,
+        "min": 7.0,
+        "25%": 27.0,
+        "50%": 40.0,
+        "75%": 51.0,
+        "max": 85.0
+      },
+      "Flight Distance": {
+        "count": 103904.0,
+        "mean": 1189.4484,
+        "std": 997.1473,
+        "min": 31.0,
+        "25%": 414.0,
+        "50%": 843.0,
+        "75%": 1743.0,
+        "max": 4983.0
+      },
+      "Departure Delay in Minutes": {
+        "count": 103904.0,
+        "mean": 14.8156,
+        "std": 38.2309,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 12.0,
+        "max": 1592.0
+      },
+      "Arrival Delay in Minutes": {
+        "count": 103594.0,
+        "mean": 15.1787,
+        "std": 38.6987,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 13.0,
+        "max": 1584.0
+      }
+    },
+    "rating_stats": {
+      "Inflight wifi service": {
+        "count": 103904.0,
+        "mean": 2.7297,
+        "std": 1.3278,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Departure/Arrival time convenient": {
+        "count": 103904.0,
+        "mean": 3.0603,
+        "std": 1.5251,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Ease of Online booking": {
+        "count": 103904.0,
+        "mean": 2.7569,
+        "std": 1.3989,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Gate location": {
+        "count": 103904.0,
+        "mean": 2.9769,
+        "std": 1.2776,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Food and drink": {
+        "count": 103904.0,
+        "mean": 3.2021,
+        "std": 1.3295,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Online boarding": {
+        "count": 103904.0,
+        "mean": 3.2504,
+        "std": 1.3495,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Seat comfort": {
+        "count": 103904.0,
+        "mean": 3.4394,
+        "std": 1.3191,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 5.0,
+        "max": 5.0
+      },
+      "Inflight entertainment": {
+        "count": 103904.0,
+        "mean": 3.3582,
+        "std": 1.333,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "On-board service": {
+        "count": 103904.0,
+        "mean": 3.3824,
+        "std": 1.2884,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Leg room service": {
+        "count": 103904.0,
+        "mean": 3.3511,
+        "std": 1.3156,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Baggage handling": {
+        "count": 103904.0,
+        "mean": 3.6318,
+        "std": 1.1809,
+        "min": 1.0,
+        "25%": 3.0,
+        "50%": 4.0,
+        "75%": 5.0,
+        "max": 5.0
+      },
+      "Checkin service": {
+        "count": 103904.0,
+        "mean": 3.3043,
+        "std": 1.2654,
+        "min": 0.0,
+        "25%": 3.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Inflight service": {
+        "count": 103904.0,
+        "mean": 3.6404,
+        "std": 1.1757,
+        "min": 0.0,
+        "25%": 3.0,
+        "50%": 4.0,
+        "75%": 5.0,
+        "max": 5.0
+      },
+      "Cleanliness": {
+        "count": 103904.0,
+        "mean": 3.2864,
+        "std": 1.3123,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      }
+    },
+    "unique_values": {
+      "Unnamed: 0": 103904,
+      "id": 103904,
+      "Gender": 2,
+      "Customer Type": 2,
+      "Age": 75,
+      "Type of Travel": 2,
+      "Class": 3,
+      "Flight Distance": 3802,
+      "Inflight wifi service": 6,
+      "Departure/Arrival time convenient": 6,
+      "Ease of Online booking": 6,
+      "Gate location": 6,
+      "Food and drink": 6,
+      "Online boarding": 6,
+      "Seat comfort": 6,
+      "Inflight entertainment": 6,
+      "On-board service": 6,
+      "Leg room service": 6,
+      "Baggage handling": 5,
+      "Checkin service": 6,
+      "Inflight service": 6,
+      "Cleanliness": 6,
+      "Departure Delay in Minutes": 446,
+      "Arrival Delay in Minutes": 455,
+      "satisfaction": 2
+    }
+  },
+  "test": {
+    "name": "test",
+    "rows": 25976,
+    "columns": 25,
+    "missing_values": {
+      "Unnamed: 0": 0,
+      "id": 0,
+      "Gender": 0,
+      "Customer Type": 0,
+      "Age": 0,
+      "Type of Travel": 0,
+      "Class": 0,
+      "Flight Distance": 0,
+      "Inflight wifi service": 0,
+      "Departure/Arrival time convenient": 0,
+      "Ease of Online booking": 0,
+      "Gate location": 0,
+      "Food and drink": 0,
+      "Online boarding": 0,
+      "Seat comfort": 0,
+      "Inflight entertainment": 0,
+      "On-board service": 0,
+      "Leg room service": 0,
+      "Baggage handling": 0,
+      "Checkin service": 0,
+      "Inflight service": 0,
+      "Cleanliness": 0,
+      "Departure Delay in Minutes": 0,
+      "Arrival Delay in Minutes": 83,
+      "satisfaction": 0
+    },
+    "duplicate_rows": 0,
+    "target_distribution": {
+      "neutral or dissatisfied": {
+        "count": 14573,
+        "pct": 56.1
+      },
+      "satisfied": {
+        "count": 11403,
+        "pct": 43.9
+      }
+    },
+    "numerical_stats": {
+      "Age": {
+        "count": 25976.0,
+        "mean": 39.621,
+        "std": 15.1357,
+        "min": 7.0,
+        "25%": 27.0,
+        "50%": 40.0,
+        "75%": 51.0,
+        "max": 85.0
+      },
+      "Flight Distance": {
+        "count": 25976.0,
+        "mean": 1193.7885,
+        "std": 998.684,
+        "min": 31.0,
+        "25%": 414.0,
+        "50%": 849.0,
+        "75%": 1744.0,
+        "max": 4983.0
+      },
+      "Departure Delay in Minutes": {
+        "count": 25976.0,
+        "mean": 14.3061,
+        "std": 37.4232,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 12.0,
+        "max": 1128.0
+      },
+      "Arrival Delay in Minutes": {
+        "count": 25893.0,
+        "mean": 14.7409,
+        "std": 37.5175,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 13.0,
+        "max": 1115.0
+      }
+    },
+    "rating_stats": {
+      "Inflight wifi service": {
+        "count": 25976.0,
+        "mean": 2.7247,
+        "std": 1.3354,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Departure/Arrival time convenient": {
+        "count": 25976.0,
+        "mean": 3.0468,
+        "std": 1.5334,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Ease of Online booking": {
+        "count": 25976.0,
+        "mean": 2.7568,
+        "std": 1.413,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Gate location": {
+        "count": 25976.0,
+        "mean": 2.9771,
+        "std": 1.2821,
+        "min": 1.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Food and drink": {
+        "count": 25976.0,
+        "mean": 3.2154,
+        "std": 1.3315,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Online boarding": {
+        "count": 25976.0,
+        "mean": 3.2617,
+        "std": 1.3555,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Seat comfort": {
+        "count": 25976.0,
+        "mean": 3.4492,
+        "std": 1.3201,
+        "min": 1.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 5.0,
+        "max": 5.0
+      },
+      "Inflight entertainment": {
+        "count": 25976.0,
+        "mean": 3.3578,
+        "std": 1.3383,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "On-board service": {
+        "count": 25976.0,
+        "mean": 3.3857,
+        "std": 1.2821,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Leg room service": {
+        "count": 25976.0,
+        "mean": 3.3502,
+        "std": 1.3189,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 4.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Baggage handling": {
+        "count": 25976.0,
+        "mean": 3.6332,
+        "std": 1.1765,
+        "min": 1.0,
+        "25%": 3.0,
+        "50%": 4.0,
+        "75%": 5.0,
+        "max": 5.0
+      },
+      "Checkin service": {
+        "count": 25976.0,
+        "mean": 3.3142,
+        "std": 1.2693,
+        "min": 1.0,
+        "25%": 3.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "Inflight service": {
+        "count": 25976.0,
+        "mean": 3.6493,
+        "std": 1.1807,
+        "min": 0.0,
+        "25%": 3.0,
+        "50%": 4.0,
+        "75%": 5.0,
+        "max": 5.0
+      },
+      "Cleanliness": {
+        "count": 25976.0,
+        "mean": 3.2862,
+        "std": 1.3193,
+        "min": 0.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      }
+    },
+    "unique_values": {
+      "Unnamed: 0": 25976,
+      "id": 25976,
+      "Gender": 2,
+      "Customer Type": 2,
+      "Age": 75,
+      "Type of Travel": 2,
+      "Class": 3,
+      "Flight Distance": 3281,
+      "Inflight wifi service": 6,
+      "Departure/Arrival time convenient": 6,
+      "Ease of Online booking": 6,
+      "Gate location": 5,
+      "Food and drink": 6,
+      "Online boarding": 6,
+      "Seat comfort": 5,
+      "Inflight entertainment": 6,
+      "On-board service": 6,
+      "Leg room service": 6,
+      "Baggage handling": 5,
+      "Checkin service": 5,
+      "Inflight service": 6,
+      "Cleanliness": 6,
+      "Departure Delay in Minutes": 313,
+      "Arrival Delay in Minutes": 320,
+      "satisfaction": 2
+    }
+  },
+  "feature_columns": [
+    "Gender",
+    "Customer Type",
+    "Type of Travel",
+    "Class",
+    "Inflight wifi service",
+    "Departure/Arrival time convenient",
+    "Ease of Online booking",
+    "Gate location",
+    "Food and drink",
+    "Online boarding",
+    "Seat comfort",
+    "Inflight entertainment",
+    "On-board service",
+    "Leg room service",
+    "Baggage handling",
+    "Checkin service",
+    "Inflight service",
+    "Cleanliness",
+    "Age",
+    "Flight Distance",
+    "Departure Delay in Minutes",
+    "Arrival Delay in Minutes"
+  ],
+  "id_columns": [
+    "Unnamed: 0",
+    "id"
+  ],
+  "target_column": "satisfaction",
+  "positive_class": "satisfied",
+  "negative_class": "neutral or dissatisfied"
+}
